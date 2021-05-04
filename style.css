@@ -1,0 +1,79 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url("2492629.jpg");
+        background-size: 100% 230%;
+        background-repeat: no-repeat;
+        height: auto;
+        font-family: 'Ubuntu', sans-serif;;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        margin-top: 30px;
+        margin-right: 65px;
+    }
+    .left img{
+        width: 90px;
+        padding-left: 50px;
+        
+
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 0pt;
+        width: 19%;
+    }
+    .mid{
+        display: block;
+
+        margin: 20px 290px;
+        width: 75% ;
+    }
+    .container{
+        background-color: yellow;
+        margin-left: 1280px;;
+        width: 10%;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: left;
+        color:black;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        margin-top: 20px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        background-color: rgb(252, 248, 23);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 20px;
+        color: black;
+    }
+    .btn{
+        margin: 0px 5px;
+        background-color: yellow;
+        color: black;
+        padding: 15px 18px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: rgb(109, 109, 44)
+    }
